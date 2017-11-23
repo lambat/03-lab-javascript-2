@@ -5,13 +5,13 @@
   <title>Javascript: Local Storage</title>
   <style>
     #get-name {
-      background: #eee;
+    background: pink;
       padding: 0.5em;
     }
     h1 {
-      background: #333;
+      background: green;
       color: #eee;
-      padding-left: 0.25em
+      padding-left: 0.25em;
     }
   </style>
 </head>
@@ -22,8 +22,12 @@
     <label for="user-name">Enter name:</label>
     <input type="text" id="user-name" placeholder="Your name?">
     <input type="submit">
-  </form>
 
+  </form>
+<button id="clearStorage">Clear Storage</button>
+
+<p>
+  <input type="color" id="colorPicker" value="#0000ff">
   <script src="js/localstore.js"></script>
 </body>
 </html>
